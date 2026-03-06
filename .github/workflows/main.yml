@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       agent_name:
-        description: 'DumpJ'
+        description: 'Dump'
         required: true
         default: 'lokie'
       agent_description:
-        description: 'DumpJ'
+        description: 'Dump'
         required: true
-        default: 'DumpJ AI Agent'
+        default: 'Dump AI Agent'
 
 jobs:
   verify:
